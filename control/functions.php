@@ -213,7 +213,7 @@ function send_mailing_list($send_data) {
 }
 
 function makeRandomPassword() {
-    $salt = "abchefghjkmnpqrstuvwxyz0123456789!@&%$ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    $salt = 'abchefghjkmnpqrstuvwxyz0123456789!@&%$ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     srand((double)microtime()*1000000);
     $i = 0;
     while ($i <= 10) {
