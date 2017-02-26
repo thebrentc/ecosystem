@@ -6,11 +6,11 @@
 5. Create/update information in control/config.php [issue #6: config.php not on github master]
 5.1 Something randomish should be added for $salt (used for securely storing passwords)
 5.2 You may want to switch the error reporting to 0 in config.php
-6. If need to reset superuser account, can try (in branch reset_superuser)
+6. If need to reset superuser account, can try: (files in branch reset_superuser)
 6.1 Run the reset_superuser.sql (for the page redirects)
 6.2 Copy templates/home_templates/reset_superuser.sample.php to reset_superuser.php
 6.3 Visit /reset_superuser
-
+7. Optionally, use /demo-setup (in demo branch) to set up demo website, user, etc.
 
 
 
