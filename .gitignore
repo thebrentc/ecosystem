@@ -3,6 +3,9 @@
 
 control/config.php
 
+# reset_superuser.php to ignore (reset_superuser.sample.php provided for copy)
+templates/home_templates/reset_superuser.php
+
 
 # Ignore rules from https://gist.github.com/octocat/9257657 #
 #############################################################
