@@ -3,7 +3,7 @@
 2.1. Give permissions e.g.: GRANT SELECT, INSERT, DELETE, UPDATE ON *.* TO 'user'@'localhost'; --TODO limit database to ecosystem
 3. Run ecosystem_2.1.sql to setup database
 4. Git clone (or copy/extract) ecosystem files
-5. Update information in control/config.php [issue: not on github)
+5. Create/update information in control/config.php [issue #6: config.php not on github master]
 
 
 
